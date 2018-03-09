@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "ViewReport";
+}
+
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1 class="panel-title">Query Group Counseling Session Report</h1>
+            </div>
+
+            <div class="panel-body">
+
+
+                <form id="form1" class="form-vertical" method="post" action="/Home/GenerateReport">
+
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+
+                        <label class="control-label" for="sStd">Student ID</label>
+
+                        <div class="">
+                            <input type="text" name="stdID" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="control-label" for="sCounselor">Counselor ID</label>
+
+                        <div class="">
+                            <input type="text" name="cID" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+
+                        <label class="control-label" for="sMonth">Month</label>
+
+                        <div class="">
+                            <select name="sMonth" class="chosen-select form-control">
+                                <option value="">Select Month</option>
+                                <option value="01">JANUARY</option>
+                                <option value="02">FEBRUARY</option>
+                                <option value="03">MARCH</option>
+                                <option value="04">APRIL</option>
+                                <option value="05">MAY</option>
+                                <option value="06">JUNE</option>
+                                <option value="07">JULY</option>
+                                <option value="08">AUGUST</option>
+                                <option value="09">SEPTEMBER</option>
+                                <option value="10">OCTOBER</option>
+                                <option value="11">NOVEMBER</option>
+                                <option value="12">DECEMBER</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+
+                        <label class="control-label" for="sYear">Year</label>
+
+                        <div class="">
+                            <select name="sYear" class="chosen-select form-control">
+                                <option value="">Select Year</option>
+
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <button type="submit" id="btnGrpList" class="btn btn-default">List</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
