@@ -234,7 +234,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\GenerateReport.cshtml" />
+    <Content Include="Views\Home\GroupSessionList.cshtml" />
     <Content Include="Views\Home\ViewReport.cshtml" />
   </ItemGroup>
   <ItemGroup>

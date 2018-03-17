@@ -42,7 +42,7 @@ namespace aspnetmvcssrs.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult GenerateReport(FormCollection fc)
+        public ActionResult GroupSessionList(FormCollection fc)
         {
             string stdID = fc["stdID"].ToString();
             string staffID = fc["cID"].ToString();

@@ -1,4 +1,3 @@
-C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\obj\Debug\aspnetmvcssrs.csproj.CoreCompileInputs.cache
 C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\bin\ApplicationInsights.config
 C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\bin\SqlServerTypes\x64\msvcr120.dll
 C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
@@ -117,5 +116,7 @@ C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\bin\pt\Microsoft.ReportV
 C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\obj\Debug\aspnetmvcssrs.csprojResolveAssemblyReference.cache
+C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\obj\Debug\aspnetmvcssrs.csproj.CoreCompileInputs.cache
 C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\obj\Debug\aspnetmvcssrs.dll
 C:\Users\Force\source\repos\aspnetmvcssrs\aspnetmvcssrs\obj\Debug\aspnetmvcssrs.pdb
